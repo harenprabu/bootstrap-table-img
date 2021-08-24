@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap navbars</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark   ">
+  <!-- Brand/logo -->
+  <a class="navbar-brand" href="#"><img src="logo.jpg" style="height:70px; width:150px;" /></a>
+  
+  <!-- Links -->
+  <ul class="navbar-nav  ms-auto ">
+    <li class="nav-item">
+      <a class="nav-link" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">ABOUT</a>
+    </li>
+
+    <!-- Dropdown -->
+    <li class="nav-item dropdown ">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       Products
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#">MARKETING
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CAREERS
+
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Photo
+        </a>
+      </li>
+  </ul>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-end">
+    <form class="form-inline" action="/action_page.php">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-success" type="submit">Search</button>
+    </form>
+</nav>
+</nav>
+<br>
+
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>color</th>
+        <th>example</th>
+        <th>code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Default</td>
+        <td>Defaultson</td>
+        <td>def@somemail.com</td>
+      </tr>      
+      <tr class="table-primary">
+        <td>Primary</td>
+        <td>Joe</td>
+        <td>joe@example.com</td>
+      </tr>
+      <tr class="table-success">
+        <td>Success</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr class="table-danger">
+        <td>Danger</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr class="table-info">
+        <td>Info</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+      <tr class="table-warning">
+        <td>Warning</td>
+        <td>Refs</td>
+        <td>bo@example.com</td>
+      </tr>
+      <tr class="table-active">
+        <td>Active</td>
+        <td>Activeson</td>
+        <td>act@example.com</td>
+      </tr>
+      <tr class="table-secondary">
+        <td>Secondary</td>
+        <td>Secondson</td>
+        <td>sec@example.com</td>
+      </tr>
+      <tr class="table-light">
+        <td>Light</td>
+        <td>Angie</td>
+        <td>angie@example.com</td>
+      </tr>
+      <tr class="table-dark text-dark">
+        <td>Dark</td>
+        <td>Bo</td>
+        <td>bo@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
